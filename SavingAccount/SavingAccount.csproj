@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9BE8E91F-18ED-4A79-9AAD-A6ED7A68703D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SavingAccount</RootNamespace>
+    <AssemblyName>SavingAccount</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="microsoft.sqlserver.batchparser, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=x86" />
+    <Reference Include="Microsoft.SqlServer.BatchParserClient, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data Access Object\AccountDAO.cs" />
+    <Compile Include="Data Access Object\DepositDAO.cs" />
+    <Compile Include="Data Access Object\ReportDateDAO.cs" />
+    <Compile Include="Data Access Object\ReportMonthDAO.cs" />
+    <Compile Include="Data Access Object\SavingTypeDAO.cs" />
+    <Compile Include="Data Access Object\WithdrawDAO.cs" />
+    <Compile Include="Data Transfer Object\DataProvider.cs" />
+    <Compile Include="Data Transfer Object\Account.cs" />
+    <Compile Include="Data Transfer Object\Deposit.cs" />
+    <Compile Include="Data Transfer Object\ReportDate.cs" />
+    <Compile Include="Data Transfer Object\ReportMonth.cs" />
+    <Compile Include="Data Transfer Object\SavingType.cs" />
+    <Compile Include="Data Transfer Object\Withdraw.cs" />
+    <Compile Include="Business Logic Object\fBaoCaoNgay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Business Logic Object\fBaoCaoNgay.Designer.cs">
+      <DependentUpon>fBaoCaoNgay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Business Logic Object\fBaoCaoThang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Business Logic Object\fBaoCaoThang.Designer.cs">
+      <DependentUpon>fBaoCaoThang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Business Logic Object\fDanhSachSo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Business Logic Object\fDanhSachSo.Designer.cs">
+      <DependentUpon>fDanhSachSo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Business Logic Object\fPhieuGuiTien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Business Logic Object\fPhieuGuiTien.Designer.cs">
+      <DependentUpon>fPhieuGuiTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Business Logic Object\fMoSoTietKiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Business Logic Object\fMoSoTietKiem.Designer.cs">
+      <DependentUpon>fMoSoTietKiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Business Logic Object\fMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Business Logic Object\fMain.Designer.cs">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Business Logic Object\fPhieuRutTien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Business Logic Object\fPhieuRutTien.Designer.cs">
+      <DependentUpon>fPhieuRutTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Business Logic Object\fQuanLy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Business Logic Object\fQuanLy.Designer.cs">
+      <DependentUpon>fQuanLy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Business Logic Object\fBaoCaoNgay.resx">
+      <DependentUpon>fBaoCaoNgay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business Logic Object\fBaoCaoThang.resx">
+      <DependentUpon>fBaoCaoThang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business Logic Object\fDanhSachSo.resx">
+      <DependentUpon>fDanhSachSo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business Logic Object\fPhieuGuiTien.resx">
+      <DependentUpon>fPhieuGuiTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business Logic Object\fMoSoTietKiem.resx">
+      <DependentUpon>fMoSoTietKiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business Logic Object\fMain.resx">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business Logic Object\fPhieuRutTien.resx">
+      <DependentUpon>fPhieuRutTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business Logic Object\fQuanLy.resx">
+      <DependentUpon>fQuanLy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

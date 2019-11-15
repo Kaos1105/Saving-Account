@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SavingAccount", "SavingAccount\SavingAccount.csproj", "{9BE8E91F-18ED-4A79-9AAD-A6ED7A68703D}"
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "SavingAccount Setup", "AI Setup Project1\SavingAccount Setup.aiproj", "{CC5858CD-3979-4111-995D-BD1A008E4428}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BE8E91F-18ED-4A79-9AAD-A6ED7A68703D}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE8E91F-18ED-4A79-9AAD-A6ED7A68703D}.All|Any CPU.Build.0 = Release|Any CPU
+		{9BE8E91F-18ED-4A79-9AAD-A6ED7A68703D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE8E91F-18ED-4A79-9AAD-A6ED7A68703D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE8E91F-18ED-4A79-9AAD-A6ED7A68703D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE8E91F-18ED-4A79-9AAD-A6ED7A68703D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5858CD-3979-4111-995D-BD1A008E4428}.All|Any CPU.ActiveCfg = DefaultBuild
+		{CC5858CD-3979-4111-995D-BD1A008E4428}.All|Any CPU.Build.0 = DefaultBuild
+		{CC5858CD-3979-4111-995D-BD1A008E4428}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{CC5858CD-3979-4111-995D-BD1A008E4428}.Debug|Any CPU.Build.0 = DefaultBuild
+		{CC5858CD-3979-4111-995D-BD1A008E4428}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{CC5858CD-3979-4111-995D-BD1A008E4428}.Release|Any CPU.Build.0 = DefaultBuild
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E8F37E6-DCDD-4B2D-BB1F-BC7769C85187}
+	EndGlobalSection
+EndGlobal

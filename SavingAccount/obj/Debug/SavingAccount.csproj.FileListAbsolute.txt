@@ -1,0 +1,115 @@
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\bin\Debug\SavingAccount.exe.config
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\bin\Debug\SavingAccount.exe
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\bin\Debug\SavingAccount.pdb
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.csprojAssemblyReference.cache
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.Properties.Resources.resources
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.csproj.GenerateResource.cache
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.csproj.CoreCompileInputs.cache
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.exe
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.pdb
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fBaoCaoNgay.resources
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fBaoCaoThang.resources
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fDanhSachSo.resources
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fPhieuGuiTien.resources
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fMoSoTietKiem.resources
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fMain.resources
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fPhieuRutTien.resources
+E:\Study\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fQuanLy.resources
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\bin\Debug\SavingAccount.exe.config
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\bin\Debug\SavingAccount.exe
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\bin\Debug\SavingAccount.pdb
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccount.csprojAssemblyReference.cache
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccounst.fBaoCaoNgay.resources
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccounst.fBaoCaoThang.resources
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccounst.fDanhSachSo.resources
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccounst.fPhieuGuiTien.resources
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccounst.fMoSoTietKiem.resources
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccounst.fMain.resources
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccounst.fPhieuRutTien.resources
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccounst.fQuanLy.resources
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccount.Properties.Resources.resources
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccount.csproj.GenerateResource.cache
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccount.csproj.CoreCompileInputs.cache
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccount.exe
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccount.pdb
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.Diagnostics.STrace.dll
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\obj\Debug\SavingAccount.csproj.CopyComplete
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\bin\Debug\microsoft.sqlserver.batchparser.dll
+C:\Users\Sang\Downloads\Compressed\CNPM_2\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.BatchParserClient.dll
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\bin\Debug\SavingAccount.exe.config
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\bin\Debug\SavingAccount.exe
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\bin\Debug\SavingAccount.pdb
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.Diagnostics.STrace.dll
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccount.csprojAssemblyReference.cache
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccounst.fBaoCaoNgay.resources
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccounst.fBaoCaoThang.resources
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccounst.fDanhSachSo.resources
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccounst.fPhieuGuiTien.resources
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccounst.fMoSoTietKiem.resources
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccounst.fMain.resources
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccounst.fPhieuRutTien.resources
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccounst.fQuanLy.resources
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccount.Properties.Resources.resources
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccount.csproj.GenerateResource.cache
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccount.csproj.CoreCompileInputs.cache
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccount.csproj.CopyComplete
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccount.exe
+C:\Users\KAOS\Downloads\Compressed\CNPM\SavingAccount\obj\Debug\SavingAccount.pdb
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\bin\Debug\SavingAccount.exe.config
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\bin\Debug\SavingAccount.exe
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\bin\Debug\SavingAccount.pdb
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.Diagnostics.STrace.dll
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.csprojAssemblyReference.cache
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fBaoCaoNgay.resources
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fBaoCaoThang.resources
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fDanhSachSo.resources
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fPhieuGuiTien.resources
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fMoSoTietKiem.resources
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fMain.resources
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fPhieuRutTien.resources
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fQuanLy.resources
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.Properties.Resources.resources
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.csproj.GenerateResource.cache
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.csproj.CopyComplete
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.exe
+D:\OneDrive-University of Information Technology\SE\Kì 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.pdb
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\bin\Debug\SavingAccount.exe.config
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\bin\Debug\SavingAccount.exe
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\bin\Debug\SavingAccount.pdb
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.Diagnostics.STrace.dll
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.csprojAssemblyReference.cache
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fBaoCaoNgay.resources
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fBaoCaoThang.resources
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fDanhSachSo.resources
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fPhieuGuiTien.resources
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fMoSoTietKiem.resources
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fMain.resources
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fPhieuRutTien.resources
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccounst.fQuanLy.resources
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.Properties.Resources.resources
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.csproj.GenerateResource.cache
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.csproj.CopyComplete
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.exe
+E:\University of Information Technology\SE\Sem 4\Software Engineering\CNPM\SavingAccount\obj\Debug\SavingAccount.pdb

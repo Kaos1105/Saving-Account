@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="16.0" version="16.0" Modules="simple" RootPath="." Language="en" Id="{37DA9FF9-F0C1-4545-9A40-EDA2CB79838A}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;FixupComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_PREDEF_LCONDS_PROPS" Value="AI_DETECTED_SQLEXPRESS_VERSION"/>
+    <ROW Property="AI_REQUIRED_SQLEXPRESS_DISPLAY" MultiBuildValue="DefaultBuild:SQL Server Express 2017" ValueLocId="-"/>
+    <ROW Property="AI_REQUIRED_SQLEXPRESS_VERSION" MultiBuildValue="DefaultBuild:2017" ValueLocId="-"/>
+    <ROW Property="AI_RUN_AS_ADMIN" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="Manufacturer" Value="Try Hard"/>
+    <ROW Property="ProductCode" Value="1033:{6CEA1A7F-EBF1-4B15-B6F2-18C50759A297} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Saving Account"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{090F7EB3-0DF0-41F7-BF93-1091C5AB5F32}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="Database.sql" ComponentId="{DA40AEE1-1068-4B46-8D29-C36ECF7B71B9}" Directory_="APPDIR" Attributes="0" KeyPath="Database.sql" Type="0"/>
+    <ROW Component="Microsoft.SqlServer.BatchParserClient.dll" ComponentId="{6CCC3DAD-66AC-4C24-8BFC-82DF5206D886}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.BatchParserClient.dll"/>
+    <ROW Component="Microsoft.SqlServer.ConnectionInfo.dll" ComponentId="{90DF023F-9BD2-4BB5-AA89-9C7F458F89D9}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.ConnectionInfo.dll"/>
+    <ROW Component="Microsoft.SqlServer.Diagnostics.STrace.dll" ComponentId="{790432F4-C886-4F2F-81E5-10285AF25147}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Diagnostics.STrace.dll"/>
+    <ROW Component="Microsoft.SqlServer.Dmf.Common.dll" ComponentId="{7820E612-730B-4D90-88E0-412FAE710DD1}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Dmf.Common.dll"/>
+    <ROW Component="Microsoft.SqlServer.Management.Sdk.Sfc.dll" ComponentId="{64D6074E-0701-461A-941D-58C4232D9286}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Management.Sdk.Sfc.dll"/>
+    <ROW Component="Microsoft.SqlServer.ServiceBrokerEnum.dll" ComponentId="{940A6FFC-96D1-485D-A346-D8626F8A0B45}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.ServiceBrokerEnum.dll"/>
+    <ROW Component="Microsoft.SqlServer.Smo.dll" ComponentId="{5F539DF4-BCA7-4AA8-A2F2-BAF25A232F5D}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Smo.dll"/>
+    <ROW Component="Microsoft.SqlServer.SqlClrProvider.dll" ComponentId="{05B69325-3BA1-4860-AEB8-216C997C4AD5}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.SqlClrProvider.dll"/>
+    <ROW Component="Microsoft.SqlServer.SqlEnum.dll" ComponentId="{F4B6FA55-46B9-4FB0-835C-CEE73A7A935C}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.SqlEnum.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{1B8512F3-4D00-4E2B-8005-58892CA2A2D0}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SavingAccount.exe" ComponentId="{78160BDF-54CE-4082-90BA-48C77D1540F4}" Directory_="APPDIR" Attributes="0" KeyPath="SavingAccount.exe"/>
+    <ROW Component="microsoft.sqlserver.batchparser.dll" ComponentId="{C7F667C4-452D-4F34-B6D9-486767FEA85F}" Directory_="APPDIR" Attributes="0" KeyPath="microsoft.sqlserver.batchparser.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Microsoft.SqlServer.Diagnostics.STrace.dll" Component_="Microsoft.SqlServer.Diagnostics.STrace.dll" FileName="MICROS~1.DLL|Microsoft.SqlServer.Diagnostics.STrace.dll" Attributes="0" SourcePath="..\SavingAccount\bin\Release\Microsoft.SqlServer.Diagnostics.STrace.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Dmf.Common.dll" Component_="Microsoft.SqlServer.Dmf.Common.dll" FileName="MICROS~2.DLL|Microsoft.SqlServer.Dmf.Common.dll" Attributes="0" SourcePath="..\SavingAccount\bin\Release\Microsoft.SqlServer.Dmf.Common.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Management.Sdk.Sfc.dll" Component_="Microsoft.SqlServer.Management.Sdk.Sfc.dll" FileName="MICROS~3.DLL|Microsoft.SqlServer.Management.Sdk.Sfc.dll" Attributes="0" SourcePath="..\SavingAccount\bin\Release\Microsoft.SqlServer.Management.Sdk.Sfc.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.ServiceBrokerEnum.dll" Component_="Microsoft.SqlServer.ServiceBrokerEnum.dll" FileName="MICROS~4.DLL|Microsoft.SqlServer.ServiceBrokerEnum.dll" Attributes="0" SourcePath="..\SavingAccount\bin\Release\Microsoft.SqlServer.ServiceBrokerEnum.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Smo.dll" Component_="Microsoft.SqlServer.Smo.dll" FileName="MICROS~5.DLL|Microsoft.SqlServer.Smo.dll" Attributes="0" SourcePath="..\SavingAccount\bin\Release\Microsoft.SqlServer.Smo.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.SqlClrProvider.dll" Component_="Microsoft.SqlServer.SqlClrProvider.dll" FileName="MICROS~6.DLL|Microsoft.SqlServer.SqlClrProvider.dll" Attributes="0" SourcePath="..\SavingAccount\bin\Release\Microsoft.SqlServer.SqlClrProvider.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.SqlEnum.dll" Component_="Microsoft.SqlServer.SqlEnum.dll" FileName="MICROS~7.DLL|Microsoft.SqlServer.SqlEnum.dll" Attributes="0" SourcePath="..\SavingAccount\bin\Release\Microsoft.SqlServer.SqlEnum.dll" SelfReg="false"/>
+    <ROW File="SavingAccount.exe" Component_="SavingAccount.exe" FileName="SAVING~1.EXE|SavingAccount.exe" Attributes="0" SourcePath="..\SavingAccount\bin\Release\SavingAccount.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="Database.sql" Component_="Database.sql" FileName="Database.sql" Attributes="0" SourcePath="..\SavingAccount\bin\Release\Database.sql" SelfReg="false"/>
+    <ROW File="microsoft.sqlserver.batchparser.dll" Component_="microsoft.sqlserver.batchparser.dll" FileName="MICROS~8.DLL|microsoft.sqlserver.batchparser.dll" Attributes="0" SourcePath="..\SavingAccount\bin\Release\microsoft.sqlserver.batchparser.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.BatchParserClient.dll" Component_="Microsoft.SqlServer.BatchParserClient.dll" FileName="MICROS~9.DLL|Microsoft.SqlServer.BatchParserClient.dll" Attributes="0" SourcePath="..\SavingAccount\bin\Release\Microsoft.SqlServer.BatchParserClient.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.ConnectionInfo.dll" Component_="Microsoft.SqlServer.ConnectionInfo.dll" FileName="MICRO~10.DLL|Microsoft.SqlServer.ConnectionInfo.dll" Attributes="0" SourcePath="..\SavingAccount\bin\Release\Microsoft.SqlServer.ConnectionInfo.dll" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrapperUISequenceComponent">
+    <ROW Action="AI_DetectSoftware" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="SoftwareDetector.dll" SourcePath="&lt;AI_CUSTACTS&gt;SoftwareDetector.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DetectSoftware" Type="257" Source="SoftwareDetector.dll" Target="OnDetectSoftware"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Diagnostics.STrace.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Dmf.Common.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Management.Sdk.Sfc.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.ServiceBrokerEnum.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Smo.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.SqlClrProvider.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.SqlEnum.dll"/>
+    <ROW Feature_="MainFeature" Component_="SavingAccount.exe"/>
+    <ROW Feature_="MainFeature" Component_="Database.sql"/>
+    <ROW Feature_="MainFeature" Component_="microsoft.sqlserver.batchparser.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.BatchParserClient.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.ConnectionInfo.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_DetectSoftware" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_DetectSoftware" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="AI_DETECTED_SQLEXPRESS_VERSION &gt;= AI_REQUIRED_SQLEXPRESS_VERSION" Description="[ProductName] cannot be installed on systems without [AI_REQUIRED_SQLEXPRESS_DISPLAY] or higher." DescriptionLocId="AI.LaunchCondition.SQLExpress" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="SavingAccount" Directory_="DesktopFolder" Name="SAVING~1|SavingAccount" Component_="SavingAccount.exe" Target="[#SavingAccount.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
