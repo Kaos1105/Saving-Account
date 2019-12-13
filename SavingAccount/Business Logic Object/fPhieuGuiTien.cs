@@ -70,7 +70,7 @@ namespace SavingAccounst
                     MessageBox.Show("Tên người gửi không được để trống");
                     return;
                 }
-                if (DateTime.Compare(dateAdd.Value.Date, DateTime.Today) > 0)
+                if (DateTime.Compare(dateAdd.Value.Date, DateTime.Today) < 0)
                 {
                     MessageBox.Show("Thời gian gửi tiền không hợp lệ");
                     return;

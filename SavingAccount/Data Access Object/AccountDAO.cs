@@ -56,7 +56,7 @@ namespace SavingAccounst.Data_Access_Object
         }
         public int GetMaxAccountID()
         {
-            string query = "select max(MaSoTIetKiem) from SoTietKiem";
+            string query = "select max(MaSoTietKiem) from SoTietKiem";
             try
             {
                 return (int)DataProvider.Instance.ExecuteScalar(query);

@@ -63,7 +63,10 @@ namespace SavingAccounst
                 try
                 {
                     if (Convert.ToDouble(list[2]) < 0)
+                    {
                         MessageBox.Show("Lãi xuất không kỳ hạn phải lớn hơn 0");
+                        return false;
+                    }
                 }
                 catch
                 {
@@ -81,7 +84,10 @@ namespace SavingAccounst
                 try
                 {
                     if (Convert.ToDouble(list[1]) < 0)
+                    {
                         MessageBox.Show("Lãi xuất có kỳ hạn phải lớn hơn 0");
+                        return false;
+                    }
                 }
                 catch
                 {
@@ -110,7 +116,10 @@ namespace SavingAccounst
             try
             {
                 if (Convert.ToInt32(list[3]) < 0)
+                {
                     MessageBox.Show("Tiền mở sổ phải lớn hơn 0");
+                    return false;
+                }
             }
             catch
             {
@@ -120,7 +129,10 @@ namespace SavingAccounst
             try
             {
                 if (Convert.ToInt32(list[4]) < 0)
+                {
                     MessageBox.Show("Tiền thêm vào sổ phải lớn hơn 0");
+                    return false;
+                }
             }
             catch
             {
@@ -130,7 +142,10 @@ namespace SavingAccounst
             try
             {
                 if (Convert.ToInt32(list[5]) < 0)
+                {
                     MessageBox.Show("Ngày được thêm tiền vào sổ phải lớn hơn 0");
+                    return false;
+                }
             }
             catch
             {
@@ -140,7 +155,10 @@ namespace SavingAccounst
             try
             {
                 if (Convert.ToInt32(list[6]) < 0)
+                {
                     MessageBox.Show("Ngày được rút tiền phải lớn hơn 0");
+                    return false;
+                }
             }
             catch
             {

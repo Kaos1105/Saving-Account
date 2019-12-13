@@ -72,7 +72,7 @@ namespace SavingAccounst
                     MessageBox.Show("Tên khách hàng không được để trống");
                     return;
                 }
-                if (DateTime.Compare(dateWithdraw.Value.Date, DateTime.Today) > 0)
+                if (DateTime.Compare(dateWithdraw.Value.Date, DateTime.Today) < 0)
                 {
                     MessageBox.Show("Thời gian rút tiền không hợp lệ");
                     return;
@@ -152,7 +152,7 @@ namespace SavingAccounst
                 MessageBox.Show("Tên người rút không được để trống");
                 return;
             }
-            if (DateTime.Compare(dateWithdraw.Value.Date, DateTime.Today) > 0)
+            if (DateTime.Compare(dateWithdraw.Value.Date, DateTime.Today) < 0)
             {
                 MessageBox.Show("Thời gian tất toán không hợp lệ");
                 return;

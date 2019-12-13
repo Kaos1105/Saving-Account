@@ -24,11 +24,11 @@ namespace SavingAccount.Data_Transfer_Object
         }
         public Withdraw(DataRow row)
         {
-            ID = (int)row["MaPhieuGuiTien"];
+            ID = (int)row["MaPhieuRutTien"];
             AccountID = (int)row["MaSoTietKiem"];
             Name = row["TenKhachHang"].ToString();
-            Money = Convert.ToInt32(row["SoTien"]);
-            DateWithdraw = (DateTime)row["NgayGui"];
+            Money = Convert.ToInt32(row["SoTienRut"]);
+            DateWithdraw = (DateTime)row["NgayRut"];
         }
         public Withdraw() { }
     }

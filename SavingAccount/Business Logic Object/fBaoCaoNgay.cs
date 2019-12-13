@@ -35,7 +35,7 @@ namespace SavingAccounst
         }
         private void Button1_Click(object sender, EventArgs e)
         {
-            if (DateTime.Compare(dateReport.Value.Date, DateTime.Today) > 0)
+            if (DateTime.Compare(dateReport.Value.Date, DateTime.Today) < 0)
             {
                 MessageBox.Show("Thời gian lập báo cáo không hợp lệ");
                 return;

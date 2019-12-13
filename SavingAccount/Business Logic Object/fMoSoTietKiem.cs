@@ -88,7 +88,7 @@ namespace SavingAccounst
                 MessageBox.Show("Địa chỉ không được để trống");
                 return;
             }
-            if(DateTime.Compare(dateOpen.Value.Date, DateTime.Today)>0)
+            if(DateTime.Compare(dateOpen.Value.Date, DateTime.Today)<0)
             {
                 MessageBox.Show("Thời gian mở sổ không hợp lệ");
                 return;

@@ -27,7 +27,7 @@ namespace SavingAccount.Data_Transfer_Object
             ID = (int)row["MaPhieuGuiTien"];
             AccountID = (int)row["MaSoTietKiem"];
             Name = row["TenKhachHang"].ToString();
-            Money = Convert.ToInt32(row["SoTien"]);
+            Money = Convert.ToInt32(row["SoTienGui"]);
             DateAdd = (DateTime)row["NgayGui"];
         }
         public Deposit() { }
